@@ -14,7 +14,8 @@ import { AuthRoutingModule } from './auth-routing.module';
   imports: [
     AngularMaterialModule,
     CommonModule,
-    FormsModule
+    FormsModule,
+    AuthRoutingModule
   ]
 })
 export class AuthModule {}
